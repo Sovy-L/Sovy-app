@@ -1,0 +1,48 @@
+
+// Sample food data for home page display
+export const FOODS = [
+  {
+    id: "1",
+    name: "Mystery Box - Mixed Italian Food",
+    restaurant: "Bella Pasta",
+    image: "https://images.unsplash.com/photo-1506354666786-959d6d497f1a?ixlib=rb-4.0.3",
+    originalPrice: 24.99,
+    discountedPrice: 8.99,
+    distance: "0.5 miles",
+    timeLeft: "2 hours",
+    tags: ["Italian", "Pasta", "Pizza"],
+  },
+  {
+    id: "2",
+    name: "Bakery Surprise Pack",
+    restaurant: "Golden Crust Bakery",
+    image: "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3",
+    originalPrice: 15.99,
+    discountedPrice: 5.99,
+    distance: "0.8 miles",
+    timeLeft: "3 hours",
+    tags: ["Bakery", "Pastries", "Fresh"],
+  },
+  {
+    id: "3",
+    name: "Sushi Box - Chef's Selection",
+    restaurant: "Sakura Sushi",
+    image: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-4.0.3",
+    originalPrice: 29.99,
+    discountedPrice: 12.99,
+    distance: "1.2 miles",
+    timeLeft: "1 hour",
+    tags: ["Japanese", "Sushi", "Fish"],
+  },
+  {
+    id: "4",
+    name: "Organic Fruit & Veggie Box",
+    restaurant: "Green Market",
+    image: "https://images.unsplash.com/photo-1610832958506-aa56368176cf?ixlib=rb-4.0.3",
+    originalPrice: 18.99,
+    discountedPrice: 6.99,
+    distance: "1.5 miles",
+    timeLeft: "4 hours",
+    tags: ["Organic", "Fruit", "Vegetables"],
+  },
+];
